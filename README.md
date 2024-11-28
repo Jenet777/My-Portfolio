@@ -33,11 +33,6 @@ Portfolio/
 
 ---
 
-## 📸 Preview
-
-[![Portfolio Screenshot](img/Screenshot2024-11-28.png)](https://your-live-site-link-here.com)
-
----
 
 ## 🛠️ Technologies Used
 
