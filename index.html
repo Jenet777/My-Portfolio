@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+        <!---------------------Header Section---------------------->
+        <header>
+            <a href="#" class="logo">Jenet</a>
+            <ul class="navlist">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about-section">About Me</a></li>
+                <li><a href="#skills-icons">Skills</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+        <!------------------home Section--------------->
+        <section class="home" id="home">
+            <div class="home-text">
+                <div class="slide">
+                    <span class="one">Hello,</span>
+                    <span class="two">I'm</span>
+                </div>
+                <h3>Jenet Elizabeth Jecob</h3>
+                <p>Engineering <span>Student</span></p>
+                <div class="resume-button">
+                    <a href="Jenet_Resume.pdf" target="_blank">View Resume</a>                     
+                  </div>
+            </div>
+            <div class="home-img">
+                <img src="img/Screenshot 2024-11-28 133628.png" alt="Your Photo">
+            </div>
+        </section>
+        
+        <!---------------about section-------------->
+        <section id="about-section" class="about-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <!-- Profile Image -->
+                <div class="profile-image">
+                    <img src="img/Screenshot 2024-11-28 133628.png" alt="Jenet's Profile Picture">
+                </div>
+        
+                <!-- Details Section -->
+                <div class="details">
+                    <div class="detail-box">
+                        <div class="icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Description</h3>
+                        <p>An enthusiastic learner with a passion for exploring and innovating in the IT field.</p>
+                    </div>
+                    <div class="detail-box">
+                        <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>B.E (Bachelor of Engineering)<br>CSE (Data Science)</p>
+                    </div>
+                </div>
+            </div>
+            <p class="summary">
+                Passionate tech enthusiast with a knack for problem-solving, eager to contribute to innovative tech solutions and build meaningful impact.
+            </p>
+        </section>
+        
+<!--------------------------------------Skills Section------------------------------------------------->
+
+
+         <div class="skills-icons" id="skills-icons">
+            <div class="main-text">
+                <h2><span class="blue">My</span> <span class="white">Skills</span></h2>
+            </div>
+        
+            <!-- Skills Sections Container -->
+            <div class="skills-container">
+                <!-- Web Development Section -->
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <div class="icons-container">
+                        <div class="icon-box">
+                            <i class="bx bxl-html5"></i>
+                            <h4>HTML</h4>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="bx bxl-css3"></i>
+                            <h4>CSS</h4>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="bx bxl-javascript"></i>
+                            <h4>JavaScript</h4>
+                            <div class="skill-level">Basics</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fas fa-database"></i>
+                            <h4>SQL</h4>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="icon-box">
+                            <img src="C:\Users\User\OneDrive\Desktop\Portfolio\mongodb.png" alt="MongoDB Logo" class="mongodb-icon">
+                            <i class="bx bxl-database"></i>
+                            <h4>MongoDB</h4>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Programming Languages Section -->
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="icons-container">
+                        <div class="icon-box">
+                            <i class="fas fa-code"></i>
+                            <h4>C</h4>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="bx bxl-python"></i>
+                            <h4>Python</h4>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="bx bxl-java"></i>
+                            <h4>Java</h4>
+                            <div class="skill-level">Basics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    <!-----------------Project Section---------------------->
+
+<section class="portfolio" id="portfolio">
+    <div class="main-text">
+        <h2><span>Latest Projects</span></h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="img/burnalyzer.jpg">
+            <div class="layer">
+                <h3>Burnalyzer</h3>
+                <p>Check out</p>
+                <a href="https://github.com/Jenet777/Burnalyzer-Human_Skin_Burn_classification" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/courier managment.jpg">
+            <div class="layer">
+                <h3>ParcelFlow</h3>
+                <p>Check out</p>
+                <a href="https://github.com/Jenet777/ParcelFlow-Courier_management" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/agri.jpeg">
+            <div class="layer">
+                <h3>AgriInsights</h3>
+                <p>Check out</p>
+                <a href="https://github.com/Jenet777/AgriInsights-Agriculture_Statistics_Website" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+      
+    </div>
+</section>
+
+
+
+    <!------------------------Contact section------------------->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <br>
+        <div class="list">
+           <li><a href="#">+91 9353829542</a></li> 
+           <li><a href="#">jenetelizabethjecob777@gmail.com</a></li> 
+        </div>
+        <div class="contact-icon">
+            <div class="contact-icons">
+
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            
+        </div>
+
+        </div> 
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="number" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How can I Help You" required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+    </section>
+    <!----------------End section---------------------->
+    <section class="end">
+        <div class="last-text">
+            <p>Design By Jenet Elizabeth Jecob</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i> </a>
+        </div>
+    </section>
+</body>
+</html>
