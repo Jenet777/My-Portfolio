@@ -28,7 +28,7 @@ Portfolio/
 │   ├── agri.jpeg
 │   └── ...other images
 ├── README.md             # Documentation for the repository
-└── Jenet_Resume.pdf      # Link to my resume
+└── Jenet__Resume.pdf      # Link to my resume
 ```
 
 ---
