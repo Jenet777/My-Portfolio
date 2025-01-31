@@ -75,7 +75,7 @@ Feedback and contributions are welcome! If you'd like to contribute, please fork
 
 ## 📧 Contact Me
 
-- Email: [jenetelizabethjecob777@gmail.com](mailto:elizabethjenetjecob22@gmail.com)
+- Email: [jenetelizabethjecob77@gmail.com](mailto:elizabethjenetjecob22@gmail.com)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
 - GitHub: [Jenet777](https://github.com/Jenet777)
 
